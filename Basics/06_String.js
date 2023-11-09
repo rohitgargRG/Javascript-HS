@@ -32,7 +32,7 @@ console.log(newString);
 
 // slice
 const anotherString = gameName.slice(-8,4);
-console.log(anotherString);
+console.log(`slice : ${anotherString}`);
 
 // trim
 const newStringOne = "   rohit   garg    ";

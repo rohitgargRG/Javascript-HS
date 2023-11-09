@@ -27,7 +27,7 @@ let state = null;
 
 // object
 
-console.log(typeof "rg");
+console.log(typeof "rg");  // string
 console.log(typeof null); // object
 console.log(typeof undefined); // undefined
 
