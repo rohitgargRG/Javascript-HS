@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Aur Code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+
+<script>
+    //******* creating a new element *******
+
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random()*10+1)
+
+    //setting customAttribute
+    div.setAttribute("title","generated title")
+
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    // div.innerText = "chai aur code"
+
+    // NOTE - till now we havent attached our created element in the browser
+    // hence we wont be able to see it currently
+
+    // do this to make it visible on the browser page
+    const addText = document.createTextNode("chai aur code")
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
+</script>
+</html>
