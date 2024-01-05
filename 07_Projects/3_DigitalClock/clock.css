@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    text-align: center;
+    font-family: monospace;
+}
+h1{
+    color: aliceblue;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+    gap: 10px;
+}
+#banner{
+    font-size: 20px;
+    color: white;
+}
+#clock{
+    width: 350px;
+    height: 80px;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
